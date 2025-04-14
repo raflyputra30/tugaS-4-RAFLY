@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Mochammad Rafly Putra Mulyana</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    td {
+      padding: 20px;
+      vertical-align: top;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+      text-align: center;
+      background-color: #0077cc;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section h2 {
+      border-left: 5px solid #0077cc;
+      padding-left: 10px;
+      color: #0077cc;
+      margin-top: 0;
+    }
+
+    form label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #0077cc;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #005fa3;
+    }
+
+    video, audio {
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    aside {
+      background: #f9f9f9;
+      padding: 10px;
+      border-left: 4px solid #0077cc;
+      font-style: italic;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <table border="0">
+    <tr>
+      <td colspan="2">
+        <header>
+          <h1>Mochammad Rafly Putra Mulyana</h1>
+          <p>📍 Gresik | 💻 Mahasiswa</p>
+          <img src="WhatsApp Image 2025-04-08 at 16.15.37.jpeg" alt="Foto Profil Mochammad Rafly Putra Mulyana">
+          <p>📧 <a href="mailto:mochammad.mulyana23@student.uisi.ac.id">mochammad.mulyana23@student.uisi.ac.id</a></p>
+        </header>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <nav>
+          <a href="biodata.html">Lihat Biodata</a>
+          <a href="#about">Tentang Saya</a>
+          <a href="#projects">Proyek</a>
+          <a href="#media">Multimedia</a>
+          <a href="#kontak">Kontak</a>
+        </nav>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <main>
+          <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang mahasiswa yang sedang belajar web development dan multimedia interaktif.</p>
+          </section>
+
+          <section id="projects">
+            <h2>Proyek</h2>
+            <article>
+              <h3>Website Portfolio</h3>
+              <p>Menampilkan biodata, media, dan form interaktif menggunakan HTML5 modern.</p>
+            </article>
+          </section>
+
+          <section id="media">
+            <h2>Media</h2>
+            <video controls>
+              <source src="video-sample.mp4" type="video/mp4">
+              Browser Anda tidak mendukung video.
+            </video>
+            <audio controls>
+              <source src="audio-sample.mp3" type="audio/mp3">
+              Browser Anda tidak mendukung audio.
+            </audio>
+          </section>
+
+          <section id="kontak">
+            <h2>Formulir Kontak</h2>
+            <form>
+              <label for="nama">Nama Lengkap:</label>
+              <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="email@example.com">
+
+              <label for="kategori">Kategori Pesan:</label>
+              <select id="kategori" name="kategori">
+                <option value="umum">Umum</option>
+                <option value="kerjasama">Kerjasama</option>
+                <option value="kritik">Kritik &amp; Saran</option>
+              </select>
+
+              <label for="pesan">Pesan:</label>
+              <textarea id="pesan" name="pesan" required placeholder="Tulis pesan Anda di sini..."></textarea>
+
+              <button type="submit">Kirim</button>
+            </form>
+          </section>
+        </main>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="80%">
+        <aside>
+          <p><strong>Keterangan:</strong> Ini adalah halaman portofolio sederhana yang menampilkan data diri dan proyek pribadi.</p>
+        </aside>
+      </td>
+      <td width="20%">
+        <footer>
+          <p>&copy; 2025 Mochammad Rafly Putra Mulyana. All rights reserved.</p>
+        </footer>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
